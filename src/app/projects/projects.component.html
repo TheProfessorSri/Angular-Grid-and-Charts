@@ -1,0 +1,20 @@
+<h1 class="proj">Projects</h1>
+<div class="todo-cont">
+    <h1 class="heading">Todo Application</h1>
+
+    <form (submit)="formSubmit()">
+        <input type="text" class="input" placeholder="Enter Todo.."
+        name="inputValue"
+        [(ngModel)]="inputValue"
+        />
+        <input class="btn-submit" type="submit" value="Add Todo" /> 
+    </form>
+
+    <div *ngFor="let taskName of todoList" class="task-cont">
+        <div class="todo-card">
+            <p>{{taskName}}</p>
+            <button class="btn-remove" type="button" (click)="removeFunc(taskName)">Remove</button>
+        </div>
+    </div>
+
+</div>

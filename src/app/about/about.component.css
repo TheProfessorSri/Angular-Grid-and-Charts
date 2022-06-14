@@ -1,0 +1,19 @@
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.inner-card{
+    margin-top: 55px;
+    padding-left: 225px;
+    width: 100%;
+}
+p{
+    width: 1050px;
+}
+.head{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(231, 231, 50);
+}

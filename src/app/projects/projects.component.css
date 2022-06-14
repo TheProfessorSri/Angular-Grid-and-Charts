@@ -1,0 +1,54 @@
+.heading{
+    font-size: 20px;
+    color: blueviolet;
+}
+.todo-card{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.todo-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding-left: 10px;
+    margin-right: 15px;
+    width: 210px;
+    height: 30px;
+}
+.btn-submit{
+    border-radius: 9px;
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+    border: none;
+    width: 95px;
+    height: 33px;
+}
+.btn-remove{
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(244, 36, 36);
+    cursor: pointer;
+    border: none;
+    width: 75px;
+    height: 30px;
+}
+.proj{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25px;
+}
